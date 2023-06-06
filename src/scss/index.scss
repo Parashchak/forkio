@@ -1,0 +1,17 @@
+body {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  min-width: 320px;
+}
+@import "reset";
+@import "variables";
+@import "mixines";
+@import "header";
+@import "dwnld";
+@import "revolutionary-section";
+@import "ptf";
+@import "get-section";
+@import "footer-section";

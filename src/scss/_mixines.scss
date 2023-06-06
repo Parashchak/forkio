@@ -1,0 +1,51 @@
+@import "./variables.scss";
+
+@mixin flex-center($fd: dddd) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin font-monts($fw: 700, $fs: 16px, $lh: 15px) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin font-lato($fst: italic, $fw: 700, $fs: 16px, $lh: 24px, $color: #fff) {
+  font-family: "Lato";
+  font-style: $fst;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin textStyle-Montserrat ($fw, $fs, $lh, $color) {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin textStyle-Lato ($fw, $fs, $lh, $color) {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin displayFlex ($fd, $fw, $jc, $ai) {
+  display: flex;
+  flex-direction: $fd;
+  flex-wrap: $fw;
+  justify-content: $jc;
+  align-items: $ai;
+}
